@@ -131,7 +131,7 @@ function Note(s)
 end
 
 function Span(s, attr)
-  return "<span" .. attributes(attr) .. ">" .. s .. "</span>"
+  return s
 end
 
 function Cite(s, cs)
